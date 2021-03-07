@@ -3,7 +3,7 @@ from sys import path
 
 path.append('..')
 
-from src.charq import CharAscii
+from charq.charq import CharAscii
 
 
 teste = CharAscii()

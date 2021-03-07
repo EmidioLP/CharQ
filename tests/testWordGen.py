@@ -3,7 +3,7 @@ from sys import path
 
 path.append('..')
 
-from src.charq import WordGenerate
+from charq.charq import WordGenerate
 
 teste = WordGenerate()
 
