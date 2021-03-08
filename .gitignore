@@ -3,3 +3,5 @@
 __pycache__
 venv
 .idea
+build charq_pkg_joaorobert80.egg-info
+dist
