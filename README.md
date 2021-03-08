@@ -70,6 +70,6 @@ a.passw(tam=20)
 >>> "p(/ozfDZd3&psT]'5/0K" 
 a.as_list()
 >>> ['p', '(', '/', 'o', 'z', 'f', 'D', 'Z', 'd', '3', '&', 'p', 's', 'T', ']', "'", '5', '/', '0', 'K']
-``
+```
 
 https://pypi.org/project/charq/
