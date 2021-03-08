@@ -20,6 +20,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    packages=setuptools.find_packages(),
+    packages=['charq'],
     python_requires=">=3.6",
 )
