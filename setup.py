@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="charq", 
-    version="0.0.1",
+    version="0.0.2",
     author="João Roberto",
     author_email="joaorobert0@protonmail.com",
     description="A simple package that provides methods to get characters, numbers, random words and etc.",
