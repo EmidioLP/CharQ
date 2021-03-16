@@ -3,7 +3,7 @@
 
 CharQ is a simple python module that provides some character blocks, random words, number and pass.
 
-In this moment exist's two class, CharAscii and WordGenerate.
+In this moment exist's two classes, CharAscii and WordGenerate.
 
 The class CharAscii have the following methods:
 - ``ascii()``: return a table with all printable ascii characters;
