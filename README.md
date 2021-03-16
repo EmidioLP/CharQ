@@ -5,7 +5,7 @@ CharQ is a simple python module that provides some character blocks, random word
 
 In this moment exist's two class, CharAscii and WordGenerate.
 
-The class CharAscii have the folowing methods:
+The class CharAscii have the following methods:
 - ``ascii()``: return a table with all printable ascii characters;
 - ``num()``: return a table with all numbers in str format;
 - ``lower()``: return a table with a-z characters, all lowers;
@@ -15,7 +15,7 @@ The class CharAscii have the folowing methods:
 - ``symbols()``: return a table of ascii symbols printables;
 - ``as_str()``: Convert class atribute val to str.
 
-The class WordGenerate have the folowing methods:
+The class WordGenerate have the following methods:
 - ``word()``: return a random word, you optionally can pass the arguments tam to chose how many characters you want in your random word, and in case you choose between 'lower', 'up' or 'camel', default ``tam=10, case='lower'``;
 - ``num()``: return a random number, you also can optionally pass the arguments ``tam`` to choose how many numbers, and ``typen`` to chose between formats 'str' or 'int', default ``tam=2, typen='int'``;
 - ``passw()``: return a random password, use the argument ``tam`` to choose how many characters you want in your pass, default ``tam=8``;
