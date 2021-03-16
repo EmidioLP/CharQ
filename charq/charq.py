@@ -71,6 +71,14 @@ class CharAscii(object):
     def as_str(self):
         self.val = "".join(self.val)
         return self.val
+    
+    def get_bin(lista):
+        lista_bin = []
+        for i in lista:
+            caracter_bin = f'{ord(i):08b}'
+            lista_bin.append(caracter_bin)
+        self.val = lista_bin
+        return lista_bin
 
 
 class WordGenerate(object):
