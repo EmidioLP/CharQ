@@ -8,12 +8,13 @@ In this moment exist's two classes, CharAscii and WordGenerate.
 The class CharAscii have the following methods:
 - ``ascii()``: return a table with all printable ascii characters;
 - ``num()``: return a table with all numbers in str format;
-- ``lower()``: return a table with a-z characters, all lowers;
-- ``up()``: return a table with A-Z characters, all uppers;
-- ``lower_up()``: return a table with a-z and A-Z characters, all lowers and uppers;
-- ``lower_up_num()``: return a table with a-z, A-Z and 0-9 characters, all lowers, uppers and numbers;
+- ``lower(optionally)``: return a table with a-z characters, all lowers - if any character or number is passed as a parameter, it returns the same list but with two more indices, where they are, respectively, a `` space`` and a `` \ n``;
+- ``up(optionally)``: return a table with A-Z characters, all uppers - if any character or number is passed as a parameter, it returns the same list but with two more indices, where they are, respectively, a `` space`` and a `` \ n``;
+- ``lower_up(optionally)``: return a table with a-z and A-Z characters, all lowers and uppers - if any character or number is passed as a parameter, it returns the same list but with two more indices, where they are, respectively, a `` space`` and a `` \ n``;
+- ``lower_up_num(optionally)``: return a table with a-z, A-Z and 0-9 characters, all lowers, uppers and numbers - if any character or number is passed as a parameter, it returns the same list but with two more indices, where they are, respectively, a `` space`` and a `` \ n``;
 - ``symbols()``: return a table of ascii symbols printables;
 - ``as_str()``: Convert class atribute val to str.
+- ``get_bin(list)``: It receives a list of characteres as a parameter and returns it in a 8-digit binary.
 
 The class WordGenerate have the following methods:
 - ``word()``: return a random word, you optionally can pass the arguments tam to chose how many characters you want in your random word, and in case you choose between 'lower', 'up' or 'camel', default ``tam=10, case='lower'``;
