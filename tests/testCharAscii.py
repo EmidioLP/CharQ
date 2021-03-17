@@ -44,6 +44,9 @@ class TestCharAscii(unittest.TestCase):
     def test_as_str(self):
         self.assertEqual(type(teste.as_str()), str)
 
+    def test_get_bin(self):
+        self.assertEqual(len(teste.get_bin()[0]), 8)
+
 
 if __name__ == '__name__':
     unittest.main()

@@ -72,7 +72,9 @@ class CharAscii(object):
         self.val = "".join(self.val)
         return self.val
     
-    def get_bin(lista):
+    def get_bin(self, lista=['none']):
+        if lista[0] == 'none':
+            lista = self.val
         lista_bin = []
         for i in lista:
             caracter_bin = f'{ord(i):08b}'
