@@ -1,5 +1,5 @@
 # Welcome to CharQ!
-### v.0.0.2 mar 2021
+### v.0.0.3 mar 2021
 
 CharQ is a simple python module that provides some character blocks, random words, number and pass.
 
